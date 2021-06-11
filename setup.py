@@ -53,7 +53,7 @@ def get_requirements(*args):
 
 
 about = {}
-with open(get_absolute_path("./wirepas_mesh_messaging/__about__.py")) as f:
+with open(get_absolute_path("./wirepas_networktool_messaging/__about__.py")) as f:
     exec(f.read(), about)
 
 setup(
