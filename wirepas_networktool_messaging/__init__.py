@@ -19,6 +19,8 @@ from .__about__ import (
     __warning_msg__,
 )
 
+from .proto import *
+
 #from .get_configs import GetConfigsRequest, GetConfigsResponse
 #from .get_gw_info import GetGatewayInfoRequest, GetGatewayInfoResponse
 #from .set_config import SetConfigRequest, SetConfigResponse
