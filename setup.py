@@ -1,6 +1,6 @@
 """
-    Wirepas Messaging
-    =================
+    Wirepas Network Tool Messaging
+    ==============================
     Installation script
 
     Copyright Wirepas Ltd 2021 licensed under Apache 2.0
