@@ -5,7 +5,6 @@ This repository contains WNT API protocol buffer Python bindings.
 ## Installation
 
 From [PyPi][wirepas_networktool_messaging_python_pypi]
-
 ```shell
     pip3 install wirepas-networktool-messaging-python
 ```
