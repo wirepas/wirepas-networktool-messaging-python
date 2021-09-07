@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+    haproxy:
+        container_name: wnt_examples
+        image: wnt_examples:1.0.0
+        build:
+            context: .
+            dockerfile: Dockerfile
+        restart: always
+        stdin_open: true
+        tty: true
+
+        volumes:
+            - ./settings.yml:/wnt_examples/wirepas-networktool-messaging-python/examples/settings.yml
