@@ -17,7 +17,7 @@ pip3 install -r requirements.txt
 ## WNT backend settings
 
 For running the examples, WNT backend connection parameters must be given by creating settings.yml
-file to the same folder from where the examples are run.
+file to the examples folder.
 
 ### Example settings file
 
@@ -67,8 +67,8 @@ hostname: "wntbackend.mydomain.com"
 ## Running an example
 
 ```shell
-    # Run from folder where settings.yml resides
-    python3 backend-apis/wrappers/python/examples/wnt/authentication.py
+    # Run from examples folder
+    python3 authentication.py
 ```
 
 ## License
@@ -76,24 +76,24 @@ hostname: "wntbackend.mydomain.com"
 Licensed under the Apache License, Version 2.0. See LICENSE for the full
 license text.
 
-[applicationconfiguration.py_link]: https://github.com/wirepas/backend-apis/tree/master/wrappers/python/examples/wnt/applicationconfiguration.py
+[applicationconfiguration.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/applicationconfiguration.py
 
-[authentication.py_link]: https://github.com/wirepas/backend-apis/tree/master/wrappers/python/examples/wnt/authentication.py
+[authentication.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/authentication.py
 
-[building.py_link]: https://github.com/wirepas/backend-apis/tree/master/wrappers/python/examples/wnt/building.py
+[building.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/building.py
 
-[componentsinformation.py_link]: https://github.com/wirepas/backend-apis/tree/master/wrappers/python/examples/wnt/componentsinformation.py
+[componentsinformation.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/componentsinformation.py
 
-[floorplan.py_link]: https://github.com/wirepas/backend-apis/tree/master/wrappers/python/examples/wnt/floorplan.py
+[floorplan.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/floorplan.py
 
-[floorplanarea.py_link]: https://github.com/wirepas/backend-apis/tree/master/wrappers/python/examples/wnt/floorplanarea.py
+[floorplanarea.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/floorplanarea.py
 
-[network.py_link]: https://github.com/wirepas/backend-apis/tree/master/wrappers/python/examples/wnt/network.py
+[network.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/network.py
 
-[node.py_link]: https://github.com/wirepas/backend-apis/tree/master/wrappers/python/examples/wnt/node.py
+[node.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/node.py
 
-[nodedatamessage.py_link]: https://github.com/wirepas/backend-apis/tree/master/wrappers/python/examples/wnt/nodedatamessage.py
+[nodedatamessage.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/nodedatamessage.py
 
-[realtimedata.py_link]: https://github.com/wirepas/backend-apis/tree/master/wrappers/python/examples/wnt/realtimedata.py
+[realtimedata.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/realtimedata.py
 
-[scratchpadstatus.py_link]: https://github.com/wirepas/backend-apis/tree/master/wrappers/python/examples/wnt/scratchpadstatus.py
+[scratchpadstatus.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/scratchpadstatus.py
