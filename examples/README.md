@@ -73,8 +73,9 @@ hostname: "wntbackend.mydomain.com"
 
 ## License
 
-Licensed under the Apache License, Version 2.0. See LICENSE for the full
-license text.
+See [LICENSE][here_license] for the full license text.
+
+[here_license]: LICENSE
 
 [applicationconfiguration.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/applicationconfiguration.py
 
