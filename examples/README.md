@@ -71,12 +71,6 @@ hostname: "wntbackend.mydomain.com"
     python3 authentication.py
 ```
 
-## License
-
-See [LICENSE][here_license] for the full license text.
-
-[here_license]: LICENSE
-
 [applicationconfiguration.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/applicationconfiguration.py
 
 [authentication.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/authentication.py
