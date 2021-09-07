@@ -8,9 +8,11 @@ as the examples about the message flow and content.
 
 ## Requirements
 
-Before running the examples please ensure that the
-[wirepas_networktool_messaging_python](https://github.com/wirepas/wirepas-networktool-messaging-python)
-package is installed.
+Before running the examples please ensure that the requirements are installed.
+
+```shell
+pip3 install -r requirements.txt
+```
 
 ## WNT backend settings
 
