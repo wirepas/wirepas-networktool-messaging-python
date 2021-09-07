@@ -16,7 +16,6 @@ from .__about__ import (
     __url__,
     __version__,
     __keywords__,
-    __warning_msg__,
 )
 
 from .proto import *
@@ -33,5 +32,4 @@ __all__ = [
     "__url__",
     "__version__",
     "__keywords__",
-    "__warning_msg__",
 ]
