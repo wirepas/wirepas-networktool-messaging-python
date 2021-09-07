@@ -14,12 +14,12 @@ __classifiers__ = [
     "Programming Language :: Python :: 3",
 ]
 __copyright__ = "2021 Wirepas Ltd"
-__description__ = "Wrapper interfaces to interact with Backend to/from Gateway API."
-__keywords__ = "wirepas connectivity iot mesh gateway backend"
+__description__ = "WNT protocol buffers bindings."
+__keywords__ = "wirepas WNT"
 __license__ = "Apache-2"
 __pkg_name__ = "wirepas_networktool_messaging"
-__title__ = "Wirepas Messaging For Mesh access"
-__url__ = "https://github.com/wirepas/backend-apis/tree/master/gateway_to_backend"
+__title__ = "Wirepas Messaging For WNT"
+__url__ = "https://github.com/wirepas/wirepas-networktool-messaging-python"
 __version__ = "set_by_GH_action"
 __warning_msg__ = """
 ***********************************************************************
