@@ -21,12 +21,3 @@ __pkg_name__ = "wirepas_networktool_messaging"
 __title__ = "Wirepas Messaging For WNT"
 __url__ = "https://github.com/wirepas/wirepas-networktool-messaging-python"
 __version__ = "set_by_GH_action"
-__warning_msg__ = """
-***********************************************************************
-* WARNING:
-*     You are using the pure python protobuf implementation.
-*     For better results, please consider using the cpp version.
-*     For more information please consult:
-*     https://github.com/protocolbuffers/protobuf/tree/master/python
-***********************************************************************
-"""
