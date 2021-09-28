@@ -1,6 +1,6 @@
 # wirepas-networktool-messaging-python
 
-This repository contains WNT API protocol buffer Python bindings wheel creation, and WNT API usage examples with it.
+This repository contains WNT API protocol buffer Python bindings wheel creation, and WNT API usage examples.
 
 ## Installation
 
