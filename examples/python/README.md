@@ -71,24 +71,24 @@ hostname: "wntbackend.mydomain.com"
     python3 authentication.py
 ```
 
-[applicationconfiguration.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/applicationconfiguration.py
+[applicationconfiguration.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/python/applicationconfiguration.py
 
-[authentication.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/authentication.py
+[authentication.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/python/authentication.py
 
-[building.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/building.py
+[building.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/python/building.py
 
-[componentsinformation.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/componentsinformation.py
+[componentsinformation.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/python/componentsinformation.py
 
-[floorplan.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/floorplan.py
+[floorplan.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/python/floorplan.py
 
-[floorplanarea.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/floorplanarea.py
+[floorplanarea.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/python/floorplanarea.py
 
-[network.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/network.py
+[network.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/python/network.py
 
-[node.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/node.py
+[node.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/python/node.py
 
-[nodedatamessage.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/nodedatamessage.py
+[nodedatamessage.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/python/nodedatamessage.py
 
-[realtimedata.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/realtimedata.py
+[realtimedata.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/python/realtimedata.py
 
-[scratchpadstatus.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/scratchpadstatus.py
+[scratchpadstatus.py_link]: https://github.com/wirepas/wirepas-networktool-messaging-python/tree/main/examples/python/scratchpadstatus.py
