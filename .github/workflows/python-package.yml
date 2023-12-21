@@ -26,7 +26,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ['3.8']
+        python-version: ['3.10']
 
     steps:
     - uses: actions/checkout@v2
@@ -46,7 +46,7 @@ jobs:
         protoc -I ${{ env.PROTO_FOLDER }} --python_out=./wirepas_networktool_messaging/proto ${{ env.PROTO_FOLDER }}/*.proto
     
     - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v5
       with:
         python-version: ${{ matrix.python-version }}
 
@@ -99,14 +99,14 @@ jobs:
       run: echo "WHEEL_FILE=$(ls dist/*-py3-none-any.whl)" >> $GITHUB_ENV
       
     - name: Store artifacts only for last matrix version
-      if: ${{ matrix.python-version == '3.8' }}
+      if: ${{ matrix.python-version == '3.10' }}
       uses: actions/upload-artifact@v2
       with:
         path: ${{ env.WHEEL_FILE }}
 
     # Produced wheels is same independently of python version
     - name: Upload Wheel for releases only for last matrix version
-      if: ${{ github.event_name == 'release' && matrix.python-version == '3.8' }}
+      if: ${{ github.event_name == 'release' && matrix.python-version == '3.10' }}
       uses: actions/upload-release-asset@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -117,7 +117,7 @@ jobs:
         asset_name: wirepas_networktool_messaging-${{ env.VERSION }}-py3-none-any.whl
 
     - name: Publish package to TestPyPI for push to master
-      if: ${{ github.event_name == 'workflow_dispatch' && matrix.python-version == '3.8' }}
+      if: ${{ github.event_name == 'workflow_dispatch' && matrix.python-version == '3.10' }}
       uses: pypa/gh-action-pypi-publish@v1.4.1
       with:
         user: __token__
@@ -125,7 +125,7 @@ jobs:
         repository_url: https://test.pypi.org/legacy/
         
     - name: Publish package to PyPI for release
-      if: ${{ github.event_name == 'release' && matrix.python-version == '3.8' }}
+      if: ${{ github.event_name == 'release' && matrix.python-version == '3.10' }}
       uses: pypa/gh-action-pypi-publish@v1.4.1
       with:
         user: __token__
