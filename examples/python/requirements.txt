@@ -1,4 +1,4 @@
 # Minimal requirements for running the examples
 wirepas-networktool-messaging
 websocket-client==1.0.1
-PyYAML==5.4.1
+PyYAML~=6.0.2
