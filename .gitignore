@@ -1,2 +1,9 @@
 # Compiled proto files
 wirepas_networktool_messaging/proto/*_pb2.py
+
+# venv
+venv
+.venv
+
+# pyenv
+.python-version
